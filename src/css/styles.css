@@ -1,0 +1,55 @@
+/* Variables */
+/* Imports */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+.box-container {
+  padding: 2.5em; }
+
+.main-text {
+  text-align: center; }
+  .main-text__title {
+    font-size: 1.5em;
+    font-weight: 200;
+    line-height: 35px; }
+  .main-text__span {
+    display: block;
+    font-weight: 600; }
+  .main-text__paragraph {
+    line-height: 25px; }
+
+.grid__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 25%);
+  grid-row-gap: 2em; }
+
+.grid__item {
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  border-top: 5px solid #45d3d3;
+  box-shadow: 0 15px 2em -0.5em #a3a5ae; }
+  .grid__item:nth-child(2) {
+    border-top-color: #ea5353; }
+  .grid__item:nth-child(3) {
+    border-top-color: #fcaf4a; }
+  .grid__item:nth-child(4) {
+    border-top-color: #549ef2; }
+
+.card {
+  padding: 1em;
+  padding-top: .5em; }
+  .card__img {
+    text-align: right; }
+
+/* Base */
+body {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  background-color: #fafafa; }
+
+.attribution {
+  font-size: 11px;
+  text-align: center; }
+
+.attribution a {
+  color: #3e52a3; }

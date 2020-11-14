@@ -1,0 +1,37 @@
+
+/* Variables */
+
+$colorBuilder: hsl(0, 78%, 62%);
+$colorSupervisor: hsl(180, 62%, 55%);
+$colorKarma: hsl(34, 97%, 64%);
+$colorCalculator: hsl(212, 86%, 64%);
+
+$text-colorDark: hsl(234, 12%, 34%);
+$colorGrayishBlue: hsl(229, 6%, 66%);
+$colorLightGray: hsl(0, 0%, 98%);
+
+$font : 'Poppins', sans-serif;
+
+/* Imports */
+@import "box-container";
+@import "text";
+@import "main-grid";
+@import "card";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+
+/* Base */
+body{
+    font-size: 15px;
+    font-family: $font;
+
+    background-color: $colorLightGray;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
