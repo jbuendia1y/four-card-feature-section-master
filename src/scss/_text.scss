@@ -20,3 +20,11 @@
         color: $colorGrayishBlue;
     }
 }
+
+@media screen and (min-width:1024px){
+    .main-text{
+        width: 50%;
+        margin-top: 1.5em;
+        margin-bottom: 3em;
+    }
+}
