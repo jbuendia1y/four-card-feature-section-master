@@ -62,6 +62,7 @@
 @media screen and (min-width: 1024px) {
   .grid__container {
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
     grid-column-gap: 1.5em; }
   .grid__item:nth-child(1) {
     grid-row: 2/4; }

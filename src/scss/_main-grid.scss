@@ -32,6 +32,7 @@
     .grid{
         &__container{
             grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(4,auto);
             grid-column-gap: 1.5em;
         }
 
