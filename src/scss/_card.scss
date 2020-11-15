@@ -26,5 +26,17 @@
 
     &__img{
         text-align: right;
+        margin-top: 2.5em;
+        position: relative;
+        bottom: 10px;
+        right: 15px;
+    }
+}
+
+@media screen and (min-width:1440px){
+    .card{
+        &__paragraph{
+            font-size: 16px;
+        }
     }
 }
