@@ -2,19 +2,23 @@
 /* Imports */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 .box-container {
-  padding: 2.5em; }
+  padding: 2em; }
 
 .main-text {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 5em;
+  margin-top: 3em; }
   .main-text__title {
     font-size: 1.5em;
-    font-weight: 200;
-    line-height: 35px; }
+    font-weight: 400;
+    line-height: 35px;
+    color: #4c4e61; }
   .main-text__span {
     display: block;
     font-weight: 600; }
   .main-text__paragraph {
-    line-height: 25px; }
+    line-height: 25px;
+    color: #a3a5ae; }
 
 .grid__container {
   display: grid;
@@ -27,7 +31,7 @@
   border: none;
   border-radius: 10px;
   border-top: 5px solid #45d3d3;
-  box-shadow: 0 15px 2em -0.5em #a3a5ae; }
+  box-shadow: 0 15px 2em -1em #a3a5ae; }
   .grid__item:nth-child(2) {
     border-top-color: #ea5353; }
   .grid__item:nth-child(3) {
@@ -38,6 +42,20 @@
 .card {
   padding: 1em;
   padding-top: .5em; }
+  .card__text {
+    margin-left: .5em;
+    margin-top: 1.1em;
+    margin-bottom: 1.5em; }
+  .card__title {
+    color: #4c4e61;
+    font-weight: 600;
+    margin: .5em 0; }
+  .card__paragraph {
+    color: #a3a5ae;
+    font-weight: 200;
+    line-height: 25px;
+    font-size: 14px;
+    margin: 0 0; }
   .card__img {
     text-align: right; }
 
